@@ -7,10 +7,40 @@ import { Projects } from "../Projects";
 export const Experiance = () => {
   const experiance = [
     {
-      startYear: "2023",
-      startMonth: "Oct",
+      startYear: "2025",
+      startMonth: "Apr",
       endYear: "",
       endMonth: "Present",
+      companyName: "Finkeda",
+      position: "Software Engineer",
+      tech: [
+        "Javascript",
+        "Typescript",
+        "NodeJs",
+        "ExpressJs",
+        "ReactJs",
+        "PostgreSQL",
+        "Mongodb",
+        "RabbitMQ",
+        "REST API",
+        "NestJS",
+        "GraphQL",
+        "OOPs",
+      ],
+      summary: "",
+      description: `At Finkeda, we understand this problem and strive to resolve it. We’re on a mission to bring fundamental financial services directly to these underserved areas. By offering local merchants closest to your place, we offer a wide range of services right in the community, from money transfers to Aadhaar-enabled banking services to micro ATMs and utility payment, travel ticketing, PAN card applications, and loan EMI collections.`,
+      bulletPoints: [
+        "Implemented RabbitMQ for asynchronous communication between microservices, optimizing system efficiency and resource utilization.",
+        "Demonstrated proficiency in various backend technologies, including SQL and NoSQL databases, ensuring robust data management and retrieval.",
+        "Experience in working in agile methodology.",
+      ],
+      url: "https://www.finkeda.com",
+    },
+    {
+      startYear: "2023",
+      startMonth: "Oct",
+      endYear: "2025",
+      endMonth: "Apr",
       companyName: "Taazaa Tech. Pvt. Ltd.",
       position: "Software Engineer",
       tech: [
